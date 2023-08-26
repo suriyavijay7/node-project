@@ -38,7 +38,7 @@ var server = http.createServer((req,res)=>{
     }
 });
 
-server.listen(1234,"localhost",(err)=>{
+server.listen(1234,(err)=>{
     if (err) {
         console.log("some error at connecting to the port and host");
     } else {

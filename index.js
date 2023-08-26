@@ -38,7 +38,7 @@ var server = http.createServer((req,res)=>{
     }
 });
 
-server.listen(process.env.PORT || 3000,(err)=>{
+server.listen(process.env.PORT || 3000, "https://node-proj.cyclic.cloud",(err)=>{
     if (err) {
         console.log("some error at connecting to the port and host");
     } else {
